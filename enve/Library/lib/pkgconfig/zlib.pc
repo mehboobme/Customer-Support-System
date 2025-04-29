@@ -1,0 +1,13 @@
+prefix=C:/NLP/Sunny/Project/Customer Support System/enve/Library
+exec_prefix=C:/NLP/Sunny/Project/Customer Support System/enve/Library
+libdir=C:/NLP/Sunny/Project/Customer Support System/enve/Library/lib
+sharedlibdir=C:/NLP/Sunny/Project/Customer Support System/enve/Library/lib
+includedir=C:/NLP/Sunny/Project/Customer Support System/enve/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
