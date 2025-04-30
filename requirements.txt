@@ -8,5 +8,7 @@ jinja2
 python-dotenv 
 langchain 
 langchain_core 
-
+pyyaml
+utils
+langchain_community
 -e .
